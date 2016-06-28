@@ -47,4 +47,6 @@
     <dimen name="touch_target_touch_target_width_48dp">48dp</dimen>
     <dimen name="touch_target_touch_target_height_48dp">48dp</dimen>
     <dimen name="touch_target_button_height_36dp">36dp</dimen>
+
+    <dimen name="line_size">1dp</dimen>
 </resources>
