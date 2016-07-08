@@ -9,6 +9,7 @@
                 android:paddingTop="@dimen/spacing_medial_24">
 
     <ImageView
+        android:scaleType="centerCrop"
         android:src="@drawable/user_avatar"
         android:id="@+id/avatar_drawer_header"
         android:layout_width="60dp"
