@@ -1,5 +1,6 @@
 package com.softdesign.devintensive.ui.activities;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.support.design.widget.CoordinatorLayout;
@@ -182,6 +183,17 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     }
 
     /**
+     * Получение результата из другой Activity (фото из камеры или галлереи)
+     * @param requestCode
+     * @param resultCode
+     * @param data
+     */
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        //super.onActivityResult(requestCode, resultCode, data);
+    }
+
+    /**
      * переключает режим редактирования
      *
      * @param mode если 1 - режим редактирования, если 0 - режим просмотра
@@ -221,5 +233,13 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
             userData.add(userFieldView.getText().toString());
         }
         mDataManager.getPreferencesManager().saveUserProfileData(userData);
+    }
+
+    private void loadPhotoFromGallery() {
+
+    }
+
+    private void loadProhoFromCamera() {
+
     }
 }
