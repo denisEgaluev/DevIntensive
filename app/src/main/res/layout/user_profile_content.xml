@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout style="@style/info_bar">
+
+            <LinearLayout style="@style/info_bar_block.lr">
+
+                <TextView
+                    style="@style/info_bar_block_value"
+                    android:text="5"/>
+
+                <TextView
+                    style="@style/info_bar_block_text"
+                    android:text="Рейтинг"/>
+            </LinearLayout>
+
+            <View style="@style/info_bar_divider"/>
+
+            <LinearLayout style="@style/info_bar_block.center">
+
+                <TextView
+                    style="@style/info_bar_block_value"
+                    android:text="5"/>
+
+                <TextView
+                    style="@style/info_bar_block_text"
+                    android:text="Написано строк кода"/>
+            </LinearLayout>
+
+            <View style="@style/info_bar_divider"/>
+
+            <LinearLayout style="@style/info_bar_block.lr">
+
+                <TextView
+                    style="@style/info_bar_block_value"
+                    android:text="5"/>
+
+                <TextView
+                    style="@style/info_bar_block_text"
+                    android:text="Проектов"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/list_item">
+
+            <ImageView
+                android:id="@+id/call_icon_button"
+                style="@style/icon.left"
+                android:src="@drawable/ic_call_black_24dp"/>
+
+            <LinearLayout
+                style="@style/list_item_info_layout">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/phone_et"
+                        style="@style/list_item_info_layout_et"
+                        android:hint="Мобильный телефон"
+                        android:inputType="phone"
+                        android:text="+7 (999) 549-04-14"/>
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/call_img"
+                style="@style/icon.right"
+                android:src="@drawable/ic_phone_in_talk_black_24dp"/>
+        </LinearLayout>
+
+        <View style="@style/list_divider"/>
+
+        <LinearLayout
+            style="@style/list_item">
+
+            <ImageView
+                android:id="@+id/send_email_icon"
+                style="@style/icon.left"
+                android:src="@drawable/ic_mail_black_24dp"/>
+
+            <LinearLayout
+                style="@style/list_item_info_layout">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/mail_et"
+                        style="@style/list_item_info_layout_et"
+                        android:hint="E-mail"
+                        android:inputType="textEmailAddress"
+                        android:text="DeniEgaluev@mail.ru"/>
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <ImageView
+                style="@style/icon.right"
+                android:src="@drawable/ic_send_black_24dp"/>
+        </LinearLayout>
+
+        <View style="@style/list_divider"/>
+
+        <LinearLayout
+            style="@style/list_item">
+
+            <ImageView
+                android:id="@+id/open_vk_icon"
+                style="@style/icon.left"
+                android:src="@drawable/vk"/>
+
+            <LinearLayout
+                style="@style/list_item_info_layout">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/vk_et"
+                        style="@style/list_item_info_layout_et"
+                        android:hint="Профиль в VK"
+                        android:inputType="textWebEditText"
+                        android:text="vk.com/soer72"/>
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <ImageView
+                style="@style/icon.right"
+                android:src="@drawable/ic_visibility_black_24dp"/>
+        </LinearLayout>
+
+        <View style="@style/list_divider"/>
+
+        <LinearLayout
+            style="@style/list_item">
+
+            <ImageView
+                android:id="@+id/open_github_icon"
+                style="@style/icon.left"
+                android:src="@drawable/github_circle"/>
+
+            <LinearLayout
+                style="@style/list_item_info_layout">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/git_et"
+                        style="@style/list_item_info_layout_et"
+                        android:hint="Репозиторий"
+                        android:inputType="textWebEditText"
+                        android:text="github.com/denisEgaluev"/>
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <ImageView
+                style="@style/icon.right"
+                android:src="@drawable/ic_visibility_black_24dp"/>
+        </LinearLayout>
+
+        <View style="@style/list_divider"/>
+
+        <LinearLayout
+            style="@style/list_item">
+
+            <ImageView
+                style="@style/icon.left"
+                android:src="@drawable/ic_person_black_24dp"/>
+
+            <LinearLayout
+                style="@style/list_item_info_layout"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/bio_et"
+                        style="@style/list_item_info_layout_et"
+                        android:hint="О себе"
+                        android:inputType="textMultiLine"
+                        android:text="@string/about_me"/>
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

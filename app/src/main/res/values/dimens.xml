@@ -47,4 +47,18 @@
     <dimen name="touch_target_touch_target_width_48dp">48dp</dimen>
     <dimen name="touch_target_touch_target_height_48dp">48dp</dimen>
     <dimen name="touch_target_button_height_36dp">36dp</dimen>
+
+    <dimen name="line_size">1dp</dimen>
+    <dimen name="profile_image_size">256dp</dimen>
+
+
+    <dimen name="fab_right_space">8dp</dimen>
+    <dimen name="placeholder_photo_size_90">90dp</dimen>
+    <dimen name="spacing_medial_28">28dp</dimen>
+    <dimen name="spacing_tiny_4">4dp</dimen>
+    <dimen name="authScreen_authBox_sideOffset">72dp</dimen>
+    <dimen name="font_medium_20">20dp</dimen>
+    <dimen name="font_normal_14">14dp</dimen>
+    <dimen name="size_normal_36">36dp</dimen>
+    <dimen name="spacing_tiny_5">5dp</dimen>
 </resources>

@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">DevIntensive</string>
+    <string name="app_name">Эгалуев Денис</string>
+    <string name="about_me">He who is unable to live in society, or who has no need because he is sufficient for himself, must be either a beast or a god. He who is unable to live in society, or who has no need because he is sufficient for himself, must be either a beast or a god. He who is unable to live in society, or who has no need because he is sufficient for himself, must be either a beast or a god.</string>
+    <string name="user_profile.placeholder.image">Изменить фотографию профиля</string>
+    <string name="user_profile.dialog.gallery">Загрузить из галлереи</string>
+    <string name="user_profile.dialog.camera">Сделать снимок</string>
+    <string name="user_profile.dialog.cancel">Отмена</string>
+    <string name="user_profile.dialog.title">Изменить фотографию профиля</string>
+    <string name="user_profile.chose.messege">выберите фото</string>
+    <string name="header.authorization_enter">Войти</string>
+    <string name="hint.profile_email">Email</string>
+    <string name="hint.authorization_password">Пароль</string>
+    <string name="hint.authorization_forgotten_password">Забыли пароль?</string>
 </resources>
