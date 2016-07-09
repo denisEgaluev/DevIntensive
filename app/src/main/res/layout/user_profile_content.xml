@@ -56,6 +56,7 @@
             style="@style/list_item">
 
             <ImageView
+                android:id="@+id/call_icon_button"
                 style="@style/icon.left"
                 android:src="@drawable/ic_call_black_24dp"/>
 
@@ -87,6 +88,7 @@
             style="@style/list_item">
 
             <ImageView
+                android:id="@+id/send_email_icon"
                 style="@style/icon.left"
                 android:src="@drawable/ic_mail_black_24dp"/>
 
@@ -117,8 +119,9 @@
             style="@style/list_item">
 
             <ImageView
+                android:id="@+id/open_vk_icon"
                 style="@style/icon.left"
-                android:src="@drawable/ic_call_black_24dp"/>
+                android:src="@drawable/vk"/>
 
             <LinearLayout
                 style="@style/list_item_info_layout">
@@ -147,8 +150,9 @@
             style="@style/list_item">
 
             <ImageView
+                android:id="@+id/open_github_icon"
                 style="@style/icon.left"
-                android:src="@drawable/ic_call_black_24dp"/>
+                android:src="@drawable/github_circle"/>
 
             <LinearLayout
                 style="@style/list_item_info_layout">
@@ -161,7 +165,7 @@
                         android:id="@+id/git_et"
                         style="@style/list_item_info_layout_et"
                         android:hint="Репозиторий"
-                        android:inputType="phone"
+                        android:inputType="textWebEditText"
                         android:text="github.com/denisEgaluev"/>
                 </android.support.design.widget.TextInputLayout>
             </LinearLayout>
