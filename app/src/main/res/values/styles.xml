@@ -120,4 +120,24 @@
     <style name="custom_dialog">
         <item name="android:fullDark">@android:color/transparent</item>
     </style>
+
+    <style name="authorization_LL_infoBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/size_medium_48</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:layout_marginTop">@dimen/spacing_small_8</item>
+        <item name="android:layout_marginLeft">@dimen/spacing_medial_28</item>
+        <item name="android:layout_marginRight">@dimen/spacing_medial_28</item>
+    </style>
+
+    <style name="authorization_editText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textColor">@color/md_grey_500</item>
+        <item name="android:textColorHint">@color/md_grey_700</item>
+        <item name="android:textSize">@dimen/font_normal_14</item>
+    </style>
+
+    <dimen name="size_medium_48">48dp</dimen>
 </resources>

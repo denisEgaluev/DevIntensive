@@ -7,4 +7,8 @@
     <string name="user_profile.dialog.cancel">Отмена</string>
     <string name="user_profile.dialog.title">Изменить фотографию профиля</string>
     <string name="user_profile.chose.messege">выберите фото</string>
+    <string name="header.authorization_enter">Войти</string>
+    <string name="hint.profile_email">Email</string>
+    <string name="hint.authorization_password">Пароль</string>
+    <string name="hint.authorization_forgotten_password">Забыли пароль?</string>
 </resources>
