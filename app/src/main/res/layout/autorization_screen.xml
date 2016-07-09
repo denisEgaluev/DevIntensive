@@ -37,7 +37,7 @@
             android:orientation="horizontal">
             <!--Small orange box-->
             <LinearLayout
-                android:layout_width="@dimen/spacing_tiny_4"
+                android:layout_width="@dimen/spacing_tiny_5"
                 android:layout_height="match_parent"
                 android:background="@color/color_accent"/>
             <!--TEXT ENTER-->
